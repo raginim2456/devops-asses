@@ -63,3 +63,14 @@ Then sets up Python + Flask to serve the scraped result.
 Final container is very small and optimized.
 🎯 Final Summary (One line)
 "This project uses Node.js and Puppeteer to scrape a website, saves the data, and serves it via a Flask app inside a lightweight Docker container."
+
+
+
+
+
+the Output Is:
+
+![image](https://github.com/user-attachments/assets/1caa014c-1828-4e06-a513-c98a0d645eaa)
+
+
+

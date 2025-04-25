@@ -15,9 +15,23 @@
 ### 🔨 Step 1: Build the Docker Image
 
 ```bash
-docker build -t devopss 
+docker build -t devopss .
 
-.
+### 🔨 Step 1: Run the Docker Container
+
+Docker run -dp 5000:5000 devopss
+
+
+🌐 Access the Scraped Data
+Once the container is running, visit:
+ec2-instance IP address: 51.20.126.147
+Edit Inbound Rule to expose the port 5000
+
+http://51.20.126.147:5000/
+
+
+
+
 
 📌 What This Project Does
 
@@ -70,7 +84,7 @@ Final container is very small and optimized.
 
 the Output Is:
 
-![image](https://github.com/user-attachments/assets/1caa014c-1828-4e06-a513-c98a0d645eaa)
+
 
 
 
